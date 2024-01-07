@@ -1,7 +1,7 @@
 .about-panel {
     display: flex;
     flex-direction: row;
-    padding: 0 0 10vh 10vw;
+    padding: 0 3vw 10vh 8vw;
 }
 
 .main-bg {
@@ -27,9 +27,8 @@ background-color: #31525E;
 }
 
 .about-panel-text {
-    text-align: left;
-    font-size: larger;
-    font-weight: 300;
+    font-size: large;
+    font-weight: 400;
     margin-bottom: 0;
 }
 

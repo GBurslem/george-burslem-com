@@ -21,17 +21,15 @@ function SiteHeader() {
         </Link>
       </div>
       <div className="header-nav-links">
-        <HeaderButton title="About Me" link="/about" />
         <HeaderButtonDropdown
-          title="Tech Stack ▼"
+          title="Experience ▼"
+          titleLink="/experience"
           dropdownOptions={[
-            {title: 'React, JS, HTML, CSS', link: '/skills/web-stack'},
-            {title: 'ASP .NET', link: '/skills/dotnet'},
-            {title: 'C# and Unity', link: '/skills/csharp'},
-            {title: 'Azure & AWS', link: '/skills/cloud'},
-            {title: 'SQL', link: '/skills/database'},
-            {title: 'CMS Solutions', link: '/skills/cms'},
-            {title: 'Source Control', link: '/skills/source-control'},
+            {title: 'Web Development', link: '/experience/web-development'},
+            {title: 'C# and Unity', link: '/experience/csharp'},
+            {title: 'Cloud Development', link: '/experience/cloud'},
+            {title: 'Databases', link: '/experience/databases'},
+            {title: 'SE Best Practices', link: '/experience/best-practices'},
           ]}
           />
           <HeaderButton title="What I'm Looking For" link="/looking-for" />

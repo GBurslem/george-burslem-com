@@ -13,7 +13,7 @@ import PropTypes from 'prop-types';
  * @param {string} props.bgColor - main-bg or secondary-bg as defined by AboutPanel.css
  * @return {JSX.Element} The rendered work panel.
  */
-function WorkPanel({bgColor}) {
+function MyTechStackPanel({bgColor}) {
   return (
     <div className={`work-panel-container ${bgColor}`}>
       <h2 className="work-title">My Tech Stack</h2>
@@ -36,8 +36,8 @@ function WorkPanel({bgColor}) {
   );
 }
 
-WorkPanel.propTypes = {
+MyTechStackPanel.propTypes = {
   bgColor: PropTypes.string.isRequired,
 };
 
-export default WorkPanel;
+export default MyTechStackPanel;

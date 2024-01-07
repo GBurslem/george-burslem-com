@@ -1,5 +1,4 @@
 import React from 'react';
-import ActionButton from '../components/ActionButton';
 import PropTypes from 'prop-types';
 import '../styles/ContactPanel.css';
 
@@ -12,9 +11,10 @@ import '../styles/ContactPanel.css';
 function ContactPanel({bgColor}) {
   return (
     <div className={`contact-panel ${bgColor}`}>
-      <h1 className="contact-panel-title">Ready to work together?</h1>
-      <p className="contact-panel-text">Click below to find some time to chat and get started building your site 💪</p>
-      <ActionButton title={'Book a Free Meeting'} link={'/contact'} />
+      <h1 className="contact-panel-title">Want to get in touch?</h1>
+      <p className="contact-panel-subtitle">If you have a project or role you&apos;d like to discuss give me an email or a call
+        and I&apos;ll get back to you. I&apos;ll usually get back to you within a day 💨</p>
+      <p className='contact-panel-details'>Email: george@georgeburslem.com<br></br>Phone: +44 7429 859011<br></br>Working Hours: Mon-Sat 09:00-18:00</p>
     </div>
   );
 }

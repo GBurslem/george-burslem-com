@@ -31,14 +31,14 @@ function AboutText() {
   return (
     <div className="about-text-panel">
       <h2 className="about-panel-title">About <strong>George</strong></h2>
-      <p className="about-panel-text">I&apos;m a web designer based in Edinburgh with over 3 years professional
-        software engineering experience. I&apos;ve worked at some of the biggest companies in the world,
-        like Unity Technologies and Siemens. Now I want to help make your business grow 🚀
+      <p className="about-panel-text">I&apos;m a software engineer based in Edinburgh with 4+ years professional
+        software engineering experience and a degree in Computer Science. I&apos;ve worked at some of the biggest companies in the world,
+        like Unity Technologies and Siemens. Now I&apos;m looking to tackle the most challening problems in the industry.
       </p>
       <p className="about-text-checklist">
-        ✅ Professional software engineering experience <br></br>
-        ✅ Focus on local businesses <br></br>
-        ✅ Direct, anytime (almost!) support
+        ✅ 4+ years software engineering experience <br></br>
+        ✅ Experience leading projects to global release <br></br>
+        ✅ Focus on challenging, meaningful work
       </p>
     </div>
   );

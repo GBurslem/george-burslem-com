@@ -1,8 +1,8 @@
 .contact-panel {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 2% 0 5%;
+    text-align: left;
+    padding: 3% 25%;
 }
 
 .main-bg {
@@ -15,11 +15,18 @@
 
 .contact-panel-title{
     font-size: xxx-large;
+    text-align: left;
     font-weight: 800;
     margin-bottom: 0;
 }
 
-.contact-panel-text {
-    font-size: larger;
-    font-weight: 300;
+.contact-panel-subtitle {   
+    font-size: large;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.contact-panel-details {
+    line-height: 25px;
+    font-weight: 500;
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../components/Header';
 import LandingPanel from '../components/LandingPanel';
-import WorkPanel from '../components/WorkPanel';
+import MyTechStackPanel from '../components/MyTechStackPanel';
 import AboutPanel from '../components/AboutPanel';
 import ContactPanel from '../components/ContactPanel';
 import Footer from '../components/Footer';
@@ -16,7 +16,7 @@ function Home() {
     <div>
       <Header />
       <LandingPanel />
-      <WorkPanel bgColor={'secondary-bg'} />
+      <MyTechStackPanel bgColor={'secondary-bg'} />
       <AboutPanel bgColor={'main-bg'} />
       <ContactPanel bgColor={'secondary-bg'} />
       <Footer />

@@ -11,7 +11,7 @@ import '../styles/HeaderButtonDropdown.css';
  * @param {Array} props.dropdownOptions - The options to display in the dropdown menu.
  * @return {JSX.Element} The button to be rendered.
  */
-function HeaderButtonDropdown({title, dropdownOptions}) {
+function HeaderButtonDropdown({title, titleLink, dropdownOptions}) {
   const [isHovering, setIsHovering] = useState(false);
   return (
     <div
@@ -20,7 +20,7 @@ function HeaderButtonDropdown({title, dropdownOptions}) {
       onMouseLeave={() => setIsHovering(false)}
     >
 
-    <button className="header-button">{title}</button>
+    <Link to={titleLink}><button className="header-button">{title}</button></Link>
       {isHovering && (
         <div className="dropdown-content">
           {dropdownOptions.map((option, index) => (
@@ -36,6 +36,7 @@ function HeaderButtonDropdown({title, dropdownOptions}) {
 
 HeaderButtonDropdown.propTypes = {
   title: PropTypes.string.isRequired,
+  titleLink: PropTypes.string.isRequired,
   link: PropTypes.string.isRequired,
   dropdownOptions: PropTypes.arrayOf(
     PropTypes.shape({
