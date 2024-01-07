@@ -1,0 +1,25 @@
+.contact-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2% 0 5%;
+}
+
+.main-bg {
+    background-color: #3A606E;
+  }
+  
+.secondary-bg {
+    background-color: #31525E;
+}
+
+.contact-panel-title{
+    font-size: xxx-large;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.contact-panel-text {
+    font-size: larger;
+    font-weight: 300;
+}

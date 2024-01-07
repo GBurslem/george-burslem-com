@@ -1,0 +1,58 @@
+.about-panel {
+    display: flex;
+    flex-direction: row;
+    padding: 0 0 10vh 10vw;
+}
+
+.main-bg {
+    background-color: #3A606E;
+  }
+  
+.secondary-bg {
+background-color: #31525E;
+}
+
+/* Text Panel */
+.about-text-panel {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15%;
+}
+
+.about-panel-title {
+    text-align: left;
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.about-panel-text {
+    text-align: left;
+    font-size: larger;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.about-text-checklist {
+    text-align: left;
+    font-size: larger;
+    font-weight: 700;
+    line-height: 2;
+}
+
+/* Image Panel */
+
+.about-image-panel {
+    display: flex;
+    flex-basis: calc(50% - 100px);
+    justify-content: left;
+    height: 340px;
+    padding-left: 40px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 20px;
+}
+
+.about-image {
+    height: 340px;
+    width: auto;
+}

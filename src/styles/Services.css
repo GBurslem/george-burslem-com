@@ -1,0 +1,4 @@
+.service-panels {
+  display: flex;
+  flex-direction: column;
+}

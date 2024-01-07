@@ -1,0 +1,11 @@
+.services-panel {
+  display: flex;
+  flex-direction: column;
+}
+.services-panel-title {
+  font-weight: 600;
+}
+
+.services-panel-text {
+  font-weight: 200;
+}

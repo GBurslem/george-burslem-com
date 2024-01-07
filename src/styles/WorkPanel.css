@@ -1,0 +1,53 @@
+.work-panel-container {
+  display: flex;
+  flex-direction: column;
+  padding: 2% 5% 5%;
+}
+
+.main-bg {
+  background-color: #3A606E;
+}
+
+.secondary-bg {
+  background-color: #31525E;
+}
+
+.work-title {
+  padding-left: 2.5%;
+  font-size: xx-large;
+  font-weight: 800;
+}
+
+.work-panels {
+  display: flex;
+  flex-direction: row;
+}
+
+.work-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin-left: 5rem;
+}
+
+.work-panel .top-row {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.work-panel .bottom-row {
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+  width: 100%;
+}
+
+.logo-img {
+  margin: 1%;
+  max-width: 50%;
+  height: auto;
+  object-fit: contain;
+}

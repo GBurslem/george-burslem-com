@@ -1,0 +1,21 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    padding: 5% 25% 0;
+}
+
+.contact-title {
+    font-size: 4em;
+    margin: 4% 0 2%;
+}
+
+.contact-subtitle {
+    
+    margin: 2% 0;
+}
+
+.contact-details {
+    line-height: 25px;
+    font-weight: 500;
+}

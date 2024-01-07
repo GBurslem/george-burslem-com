@@ -1,0 +1,10 @@
+.header-container {
+    display: flex;
+    justify-content: space-between; /* To separate buttons and action */
+    padding: 0px 30px; /* Optional: Add padding for spacing */
+    align-items: center; /* To vertically center align the buttons and action */
+  }
+
+.header-nav-links {
+  margin-left: 60px;
+}

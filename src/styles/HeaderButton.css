@@ -1,0 +1,14 @@
+/* Styles for the header button */
+.header-button {
+    background-color: transparent;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 25px;
+    cursor: pointer;
+    font-weight: 900;
+    font-size: medium;
+}
+
+.header-button:hover {
+    background-color: #D7907B;
+}
