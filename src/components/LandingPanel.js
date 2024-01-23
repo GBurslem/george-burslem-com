@@ -15,8 +15,20 @@ function LandingPanel() {
     axios.get('http://localhost:5066/api/greeting')
       .then((response) => {
         setGreeting(response.data);
+        console.log(response.data);
       })
       .catch((error) => console.log(error));
+  }, []);
+
+  useEffect(() => {
+    const greetingJson = {
+      Message: 'Hello from the frontend!',
+    };
+
+    axios.post('http://localhost:5066/api/greeting', greetingJson)
+      .then((response) => {
+        console.log(response.data);
+       });
   }, []);
 
   return (

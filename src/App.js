@@ -11,6 +11,7 @@ import BestPractices from './pages/experience/BestPractices';
 import CloudDevelopment from './pages/experience/CloudDevelopment';
 import Databases from './pages/experience/Databases';
 import CSharp from './pages/experience/CSharp';
+import WebGL from './pages/experience/WebGL';
 
 /**
  * The main app container settings up the routes for the app. Loads the root page first.
@@ -26,6 +27,7 @@ function App() {
         <Route path="experience" element={<Experience />} />
         <Route path="experience/web-development" element={<WebDevelopment />} />
         <Route path="experience/csharp" element={<CSharp />} />
+        <Route path="experience/webgl" element={<WebGL />} />
         <Route path="experience/cloud" element={<CloudDevelopment />} />
         <Route path="experience/best-practices" element={<BestPractices />} />
         <Route path="experience/databases" element={<Databases />} />

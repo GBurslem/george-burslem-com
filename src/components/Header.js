@@ -27,6 +27,7 @@ function SiteHeader() {
           dropdownOptions={[
             {title: 'Web Development', link: '/experience/web-development'},
             {title: 'C# and Unity', link: '/experience/csharp'},
+            {title: 'WebGL', link: '/experience/webgl'},
             {title: 'Cloud Development', link: '/experience/cloud'},
             {title: 'Databases', link: '/experience/databases'},
             {title: 'SE Best Practices', link: '/experience/best-practices'},
